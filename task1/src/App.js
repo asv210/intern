@@ -7,6 +7,7 @@ import About from "./component/About";
 import Counter from "./component/Counter";
 import Footer from "./component/Footer";
 import Home from "./component/Home";
+import Todo from "./component/Todo";
 function App() {
   return (
     <div
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Contact" Component={Contact}></Route>
           <Route path="/Registration" Component={Registration}></Route>
           <Route path="/Counter" Component={Counter}></Route>
+          <Route path="/Todo" Component={Todo}></Route>
         </Routes>
         <Footer></Footer>
       </Router>
