@@ -12,6 +12,9 @@ const Navbar = () => {
             <NavLink to={"/Counter"}>Counter</NavLink>
           </li>
           <li className="mr-10 hover:text-emerald-400">
+            <NavLink to={"/Todo"}>Todo</NavLink>
+          </li>
+          <li className="mr-10 hover:text-emerald-400">
             <NavLink to={"/Registration"}>Registration Form</NavLink>
           </li>
           <li className="mr-10 hover:text-emerald-400">
